@@ -22,4 +22,30 @@ Iris flower classification is a classic problem in machine learning. It involves
 This pipeline provides a basic framework for iris flower classification. The specific tools and techniques may vary depending on the chosen programming language and libraries.
 
 ## Relationship_map:
-![Uploading image.png…](iris_image/iris_flower.png)
+![Uploading image.png…](iris_image/Relationship_map.jpg)
+
+## Relationship_map:
+
+This flowchart outlines the steps involved in classifying iris flowers using machine learning:
+
+1.Start: The process begins here.
+
+2.Data Collection: Collect data on iris flowers, including sepal and petal measurements. You can use the Iris flower dataset for this purpose.
+
+3.Data Preprocessing: Clean, scale, and encode your data as necessary. This ensures the data is suitable for machine learning models.
+
+4.Model Selection: Choose a machine learning model for classification. Popular options include decision trees, support vector machines, and k-nearest neighbors.
+
+5.Model Training: Split your data into training and testing sets. Train your chosen model on the training data. The model learns patterns from the data.
+
+6.Model Evaluation: Evaluate the model's performance on the unseen testing data. This assesses how well the model generalizes to new data.
+
+7.(Yes) Improve Model? If the model's evaluation results are unsatisfactory, go back to step 4 and try a different model or adjust hyperparameters of the current model.
+
+8.(No) Make Predictions: If the model performs well, use it to predict the species of new iris flowers based on their measurements.
+
+9.End: The process ends here after successfully classifying new iris flowers.
+
+This is a simplified view, and some steps might involve additional details depending on the chosen techniques.
+
+![Uploading image.png…](iris_image/Relationship_map.jpg)
